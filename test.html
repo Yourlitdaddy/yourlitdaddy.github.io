@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Testing</title>
+  </head>
+  <body>
+    <input id="button1" type="submit" name="button" value="Java"/>
+    <input id="button2" type="submit" name="button" value="C++"/>
+    <input id="button3" type="submit" name="button" value="HTML"/>
+    <script>
+    document.getElementById('button1').onclick = function() {
+    var tutorial = 1
+   };
+    document.getElementById('button2').onclick = function() {
+    var tutorial = 2
+   };
+    document.getElementById('button3').onclick = function() {
+    document.write("<h1>Java</h1>")
+   };
+      if (tutorial == 1){
+        document.write("<h1>Java</h1>");
+      }else if (tutorial == 2){
+        document.write("<h1>C++</h1>");
+      }else{
+        document.write("<h1>HTML</h1>");
+      }
+        
+    </script>
+  </body>
+</html>
